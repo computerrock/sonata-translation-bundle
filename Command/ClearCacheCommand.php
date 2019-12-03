@@ -1,6 +1,6 @@
 <?php
 
-namespace Comptuerrock\SonataTranslationBundle\Command;
+namespace Computerrock\SonataTranslationBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class ClearCacheCommand
- * @package Comptuerrock\SonataTranslationBundle\Command
+ * @package Computerrock\SonataTranslationBundle\Command
  */
 class ClearCacheCommand extends ContainerAwareCommand
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Comptuerrock\SonataTranslationBundle\Admin;
+namespace Computerrock\SonataTranslationBundle\Admin;
 
 use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;

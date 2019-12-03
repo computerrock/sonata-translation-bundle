@@ -1,6 +1,6 @@
 <?php
 
-namespace Comptuerrock\SonataTranslationBundle;
+namespace Computerrock\SonataTranslationBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

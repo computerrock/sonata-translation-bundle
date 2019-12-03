@@ -1,6 +1,6 @@
 <?php
 
-namespace Comptuerrock\SonataTranslationBundle\DependencyInjection;
+namespace Computerrock\SonataTranslationBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

@@ -28,7 +28,7 @@ public function registerBundles()
     $bundles = array(
         // ...
 		new Lexik\Bundle\TranslationBundle\LexikTranslationBundle(),
-		new Comptuerrock\SonataTranslationBundle\IbrowsSonataTranslationBundle(),
+		new Computerrock\SonataTranslationBundle\IbrowsSonataTranslationBundle(),
     );
 )
 ```

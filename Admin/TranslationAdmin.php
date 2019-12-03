@@ -1,6 +1,6 @@
 <?php
 
-namespace Comptuerrock\SonataTranslationBundle\Admin;
+namespace Computerrock\SonataTranslationBundle\Admin;
 
 use Sonata\AdminBundle\Route\RouteCollection;
 use Lexik\Bundle\TranslationBundle\Manager\TransUnitManagerInterface;

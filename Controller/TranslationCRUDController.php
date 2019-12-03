@@ -1,9 +1,9 @@
 <?php
 
-namespace Comptuerrock\SonataTranslationBundle\Controller;
+namespace Computerrock\SonataTranslationBundle\Controller;
 
 use Doctrine\DBAL\DBALException;
-use Comptuerrock\SonataTranslationBundle\Event\RemoveLocaleCacheEvent;
+use Computerrock\SonataTranslationBundle\Event\RemoveLocaleCacheEvent;
 use Lexik\Bundle\TranslationBundle\Entity\TransUnit;
 use Lexik\Bundle\TranslationBundle\Manager\TranslationInterface;
 use Sonata\AdminBundle\Datagrid\ProxyQueryInterface;
