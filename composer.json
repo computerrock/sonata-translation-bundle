@@ -1,5 +1,5 @@
 {
-    "name": "aleksa/sonata-translation-bundle",
+    "name": "computerrock/sonata-translation-bundle",
     "description": "Integration of lexik translation into sonata admin",
     "keywords": ["ibrows", "lexik", "translation", "sonata"],
     "type": "symfony-bundle",
@@ -11,6 +11,6 @@
         "lexik/translation-bundle": "*"
     },
     "autoload": {
-        "psr-4": { "Aleksa\\SonataTranslationBundle\\": "" }
+        "psr-4": { "Computerrock\\SonataTranslationBundle\\": "" }
     }
 }

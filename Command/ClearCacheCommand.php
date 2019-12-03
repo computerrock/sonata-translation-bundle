@@ -1,6 +1,6 @@
 <?php
 
-namespace Aleksa\SonataTranslationBundle\Command;
+namespace Comptuerrock\SonataTranslationBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class ClearCacheCommand
- * @package Aleksa\SonataTranslationBundle\Command
+ * @package Comptuerrock\SonataTranslationBundle\Command
  */
 class ClearCacheCommand extends ContainerAwareCommand
 {

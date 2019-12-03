@@ -7,7 +7,7 @@
     <services>
         <!-- ORM -->
         <service id="ibrows_sonata_translation.admin.orm"
-                 class="Aleksa\SonataTranslationBundle\Admin\ORMTranslationAdmin">
+                 class="Comptuerrock\SonataTranslationBundle\Admin\ORMTranslationAdmin">
             <tag name="sonata.admin" manager_type="orm" group="group.translation"
                  label_catalogue="IbrowsSonataTranslationBundle" label="translation.title"/>
             <argument/>

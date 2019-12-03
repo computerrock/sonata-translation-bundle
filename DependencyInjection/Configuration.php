@@ -1,6 +1,6 @@
 <?php
 
-namespace Aleksa\SonataTranslationBundle\DependencyInjection;
+namespace Comptuerrock\SonataTranslationBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

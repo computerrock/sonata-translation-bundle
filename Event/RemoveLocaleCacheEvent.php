@@ -3,7 +3,7 @@
  * @author    Mike Lohmann <mike@protofy.com>
  * @copyright 2015 Protofy GmbH & Co. KG
  */
-namespace Aleksa\SonataTranslationBundle\Event;
+namespace Comptuerrock\SonataTranslationBundle\Event;
 
 use Symfony\Component\EventDispatcher\Event;
 

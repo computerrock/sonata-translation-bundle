@@ -12,7 +12,7 @@ Add the following lines in your composer.json:
 ```
 {
     "require": {
-		"ibrows/sonata-translation-bundle" : "dev-master",
+		"computerrock/sonata-translation-bundle" : "dev-master",
     }
 }
 ```
@@ -28,7 +28,7 @@ public function registerBundles()
     $bundles = array(
         // ...
 		new Lexik\Bundle\TranslationBundle\LexikTranslationBundle(),
-		new Aleksa\SonataTranslationBundle\IbrowsSonataTranslationBundle(),
+		new Comptuerrock\SonataTranslationBundle\IbrowsSonataTranslationBundle(),
     );
 )
 ```
