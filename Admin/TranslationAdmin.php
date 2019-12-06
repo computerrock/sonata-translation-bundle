@@ -9,6 +9,7 @@ use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Admin\Admin;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 abstract class TranslationAdmin extends Admin
 {
@@ -214,8 +215,8 @@ abstract class TranslationAdmin extends Admin
         }
 
         $form
-            ->add('key', 'text')
-            ->add('domain', 'text');
+            ->add('key', TextType::class)
+            ->add('domain', TextType::class);
     }
 
     /**

@@ -6,6 +6,9 @@ use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\DoctrineORMAdminBundle\Datagrid\ProxyQuery;
+use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class ORMTranslationAdmin extends TranslationAdmin
 {
@@ -48,7 +51,7 @@ class ORMTranslationAdmin extends TranslationAdmin
                         'multiple' => true,
                         'expanded' => false
                     ),
-                    'field_type'    => 'choice',
+                    'field_type'    => ChoiceType::class,
                 )
             )
             ->add(
@@ -79,7 +82,7 @@ class ORMTranslationAdmin extends TranslationAdmin
                         'required' => true,
                         'value'    => $this->getNonTranslatedOnly(),
                     ),
-                    'field_type'    => 'checkbox',
+                    'field_type'    => CheckboxType::class,
                 )
             )
             ->add('key', 'doctrine_orm_string')
@@ -92,10 +95,10 @@ class ORMTranslationAdmin extends TranslationAdmin
                         'required'    => true,
                         'multiple'    => false,
                         'expanded'    => false,
-                        'empty_value' => 'all',
+                        'placeholder' => 'all',
                         'empty_data'  => 'all'
                     ),
-                    'field_type'    => 'choice',
+                    'field_type'    => ChoiceType::class,
                 )
             )
             ->add(
@@ -114,7 +117,7 @@ class ORMTranslationAdmin extends TranslationAdmin
                             '%' . $options['value'] . '%'
                         );
                     },
-                    'field_type' => 'text',
+                    'field_type' => TextType::class,
                     'label'      => 'content',
                 )
             );
